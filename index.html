@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="redSocial.js"></script>
+  <title>TP1_Lab3_2023_RedSocial</title>
+</head>
+<body>
+
+  <header class="redSocial">
+    <div class="cajaGlobo">
+      <img src="imagenes/undefined - Imgur.png" alt="Imagen logo Red Social">
+    </div>
+    <div class="cajainputUsuario">
+      <form action="">
+        <input class="inputUsuario" type="text" id="txtUsuario" placeholder="Ingresa tu usuario..." required minlength="1">
+      </form>
+    </div>
+  </header>
+
+  <div class="espacio"></div>
+
+  <main>
+    <section class="seccion1">
+      <div class="caracteristicas">
+        <div class="fotoPerfil">
+          <img  src="imagenes/99qgQJy - Imgur.jpg" alt="Imagen de perfil">
+        </div>
+        
+        <div class="perfil">
+          <h2>Jane Done</h2>
+          <p><strong>Email: </strong>jane_done@email.com</p>
+          <p><strong>Fecha de Nacimiento: </strong>01/05/1996</p>
+          <p><strong>Teléfono: </strong>918-9369585</p>
+          <p><strong>Ciudad: </strong>Tokyo, Japón</p>
+          <p>Trabajando en Lawn N</p>
+        </div>
+  
+        <div class="seguir">
+          <form action="">
+            <button id="btnSeguir" class="btnSeguir" value="Seguir">Seguir</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="espacio"></div>
+
+    <section class="seccion2">
+      <div class="info">
+        <div class="publicacion">
+          <p>Publicado hace 1 semana</p>
+
+          <img class="imagenPublicacion" src="imagenes/bq9db41.jpeg" alt="imagen de publicación" srcset="">
+    
+          <div class="meGusta">
+            <div class="botonLike">
+              <form action="">
+                <button id="btnLike" class="btnSeguir">Me gusta</button>
+              </form>
+            </div>
+            <div id="mostrarCantidadLikes" class="cajaCantidadLikes">200 Likes</div>
+          </div>
+
+          <div>
+            <p>Comentarios</p>
+            
+            <form>
+              <p id="ulMostrarComentarios" class=""></p>
+              
+              <input id="inputComentario" class="comentario" placeholder="Deja tu comentario" required minlength="1" maxlength="1500"></input>
+              <button id="agregarComentario" type="submit" class="btnSeguir">Comentar</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="espacioVertical"></div>
+    
+        <div class="sobreMi">
+          <div class="sobreMi2">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola a todos! Soy Jane, y actualmente vivo en la vibrante y emocionante ciudad de Tokio, Japón. Me encanta capturar la esencia de la vida urbana a través de mi lente, explorando el contraste entre la arquitectura moderna y las tradiciones centenarias que conviven la metrópolis única. Desde rascacielos deslumbrantes y calles bulliciosas hasta templos serenos y jardines tranquilos, encuentro inspiración en cada rincón de esta increíble ciudad.</p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+  </main>
+
+  
+
+</body>
+</html>
